@@ -1,0 +1,1123 @@
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    padding-top: 66px;
+    background-image: url('/play/bg.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.saira {
+    font-family: 'Saira', sans-serif;
+}
+
+.hale {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.lexend {
+    font-family: 'Lexend', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pdt20 {
+    padding-top: 20px;
+}
+
+.mgt20 {
+    margin-top: 20px;
+}
+
+.mgb10 {
+    margin-bottom: 10px;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+
+.mgb30 {
+    margin-bottom: 30px;
+}
+
+.mgb40 {
+    margin-bottom: 40px;
+}
+
+#app {
+    width: 100%;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link.router-link-exact-active {
+    color: #ffc107 !important;
+}
+
+.car-price {
+    color: #E5B332;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.car-price-sub {
+    color: #888EAE;
+}
+
+.cryptocurrency-icon {
+    width: 22px;
+    margin-right: 5px;
+}
+
+.modal-header {
+    background: black;
+    color: #E5B332;
+    border-bottom-color: black;
+}
+
+.btn-close-buy-box {
+    background: #dc3545;
+    position: relative;
+}
+
+.btn-close span {
+    height: 32px;
+    width: 32px;
+    font-size: 30px;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    color: white;
+}
+
+.asset-img {
+    width: 250px;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.card-item {
+    background: #E8DED1;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.car-info {
+    padding: 10px;
+}
+
+.car-img-box {
+    text-align: center;
+    height: 250px;
+    width: 100%;
+}
+
+.asset-id {
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #929292;
+}
+
+.asset-type {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 0px 0px 0px;
+    mix-blend-mode: multiply;
+    box-shadow: inset 0px -6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.asset-type-name {
+    z-index: 100;
+    position: absolute;
+    top: 15px;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-45deg);
+}
+
+.asset-type-name.Common {
+    left: 0;
+    font-size: 14px;
+}
+
+.asset-type-name.Classic {
+    left: 0;
+}
+
+.asset-type-name.Rare {
+    left: 7px;
+}
+
+.asset-type-name.Super {
+    left: 7px;
+}
+
+.stats {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.asset-stats {
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 12px 15px;
+}
+
+.asset-stat-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.asset-stat-text {
+    font-family: Saira, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #412500;
+}
+
+.asset-type.Super {
+    border-color: #FDBF47 transparent transparent #FDBF47;
+}
+
+.asset-type.Classic {
+    border-color: #6ECDE2 transparent transparent #6ECDE2;
+}
+
+.asset-type.Rare {
+    border-color: #EA5C5C transparent transparent #EA5C5C;
+}
+
+.asset-type.Common {
+    border-color: #A8E26E transparent transparent #A8E26E;
+}
+
+.asset-name {
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 41px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #394C4B;
+}
+
+.asset-id-sm {
+    color: #bbb;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 10px;
+}
+
+.car-sell-info {
+    position: absolute;
+    bottom: 0px;
+    right: 12px;
+    text-align: center;
+}
+
+.car-sell-info button {
+    max-width: 150px;
+    font-size: 14px;
+}
+
+.car-color {
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+    text-align: center;
+}
+
+.Rare .car-type {
+    color: brown;
+}
+
+.white {
+    color: white;
+}
+
+.c7 {
+    color: #c7c7c7;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.h-50 {
+    height: 50px !important;
+}
+
+.btn-sm {
+    padding: 0 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*.withdraw::before,*/
+
+/*.buy::before,*/
+
+/*.staking::before,*/
+
+/*.pvf::before,*/
+
+/*.buy_market::before,*/
+
+/*.license_plate::before,*/
+
+/*.quick_race::before,*/
+
+/*.car_name::before,*/
+
+/*.car_color::before,*/
+
+/*.auction::before,*/
+
+/*.refuel::before {*/
+
+/*  content: '-';*/
+
+/*}*/
+
+/*.deposit::before,*/
+
+/*.unstake::before,*/
+
+/*.sell_market::before,*/
+
+/*.virtual_race::before,*/
+
+/*.pvf_result::before,*/
+
+/*.pvc_mobile::before,*/
+
+/*.claim_reward::before  {*/
+
+/*  content: '+';*/
+
+/*}*/
+
+.deposit,
+.unstake,
+.sell_market,
+.virtual_race,
+.pvf_result,
+.pvc_mobile,
+.claim_reward {
+    color: green;
+}
+
+/*.withdraw, .buy, .staking, .buy_market, .license_plate, .quick_race {*/
+
+/*  color: red;*/
+
+/*}*/
+
+.staking-gif {
+    width: 20px;
+}
+
+.btn-caption {
+    color: #564545;
+    font-weight: normal;
+    font-size: 11px;
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.form-search .form-group {
+    margin-bottom: 10px;
+}
+
+.form-search button {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.custom-pagination {
+    max-width: fit-content;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.custom-pagination input {
+    max-width: 50px;
+}
+
+.custom-pagination span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-pagination a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.form-confirm-sell button {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.car-container {
+    position: relative;
+    display: block;
+}
+
+.car-container .road {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.car-container .car {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    /* Half the height */
+    margin-left: -50px;
+    /* Half the width */
+    max-width: 100px;
+    max-height: 100px;
+}
+
+@media screen and (min-width: 361px) {
+    .car-container .car {
+        margin-top: -60px;
+        /* Half the height */
+        margin-left: -60px;
+        /* Half the width */
+        max-width: 120px;
+        max-height: 120px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .car-container .car {
+        max-width: 170px;
+        max-height: 170px;
+        margin-top: -85px;
+        /* Half the height */
+        margin-left: -85px;
+        /* Half the width */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .car-container .car {
+        max-width: 200px;
+        max-height: 200px;
+        margin-top: -100px;
+        /* Half the height */
+        margin-left: -100px;
+        /* Half the width */
+    }
+}
+
+.flip-list-move {
+    transition: transform 0.5s;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bounce-enter-active {
+    animation: bounce-in .5s;
+}
+
+.bounce-leave-active {
+    opacity: 0;
+}
+
+@keyframes bounce-in {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-out {
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    0% {
+        opacity: 0;
+    }
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.fade-out-in-enter-active,
+.fade-out-in-leave-active {
+    transition: opacity .3s;
+}
+
+.fade-out-in-enter-active {
+    transition-delay: .3s;
+}
+
+.fade-out-in-enter,
+.fade-out-in-leave-to {
+    opacity: 0;
+}
+
+.list-enter-active,
+.list-leave-active {
+    transition: all 0.7s;
+}
+
+.list-leave-to
+/* .list-leave-active below version 2.1.8 */
+
+    {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.list-enter {
+    opacity: 0;
+    transform: translateZ(30px);
+}
+
+.stat-alert {
+    font-size: 40px;
+    color: #FFF2DE;
+    background: #2A3B55;
+    border-color: #2A3B55;
+    border-radius: 20px;
+    padding-left: 90px;
+    position: relative;
+}
+
+.stat-alert img {
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    height: 55px;
+}
+
+.stat-alert span {
+    font-size: 16px;
+}
+
+.td-licence-plate {
+    padding: 7px 0 !important;
+    text-align: center;
+}
+
+.license-badge {
+    background-color: #FEC20B;
+    color: black;
+    border: 2px solid black;
+    padding-left: 25px;
+    position: relative;
+}
+
+.license-badge img {
+    width: 16px;
+    position: absolute;
+    left: 7px;
+    top: 3px;
+}
+
+.yellow-link {
+    color: #ffc107;
+    text-decoration: none
+}
+
+.yellow-link:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+.car-color-container>img {
+    cursor: pointer;
+}
+
+.auction-item {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.auction-card.active {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.auction-card.active:hover {
+    transform: scale(1.05);
+}
+
+.pvf-winner {
+    color: #0f5132;
+    background-color: #d1e7dd !important;
+    border-color: #badbcc;
+}
+
+.pvf-draw {
+    color: #664d03;
+    background-color: #fff3cd !important;
+}
+
+.pvf-loser {
+    color: #842029;
+    background-color: #f8d7da !important;
+    border-color: #f5c2c7
+}
+
+/* New CSS for Crytoplanes */
+
+.play-logo {
+    height: 60px;
+    padding: 0px;
+    position: absolute;
+    top: -7px;
+    left: 5px;
+}
+
+.plative {
+    position: relative;
+}
+
+.header-bar {
+    background-color: #5AB5D7;
+}
+
+.content-panel {
+    padding: 30px;
+    background: #344E76;
+    border-radius: 10px;
+    position: relative;
+    color: #FFF2DE;
+}
+
+.content-panel h2 {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.content-panel .content-panel-title {
+    font-size: 26px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #6ECDE2;
+}
+
+.content-panel h2 img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+.content-panel .right-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 39px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.content-panel .right-btn:hover {
+    opacity: 0.85;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 60px;
+    }
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white !important;
+}
+
+.nav-box {
+    background: rgba(3, 3, 3, 0.25);
+    box-shadow: inset 2px -2px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    padding: 0 38px 0 15px;
+    position: relative;
+}
+
+.nav-box img {
+    position: absolute;
+    top: 2.5px;
+    right: 4px;
+    height: 25px;
+}
+
+.nav-box span:nth-child(1) {
+    color: #FDE39B;
+}
+
+.ido-panel {
+    background: #E8DED1;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.btn-buy-ido {
+    width: 300px;
+    max-width: 80%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.btn-buy-ido:hover {
+    opacity: 0.9;
+}
+
+.ido-raised {
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    color: #5AB5D7;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.ido-countdown {
+    color: #EA5C5C;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.account-info-row {
+    color: #FFF2DE;
+    background: #2A3B55;
+    border-color: #2A3B55;
+    border-radius: 20px;
+    padding: 22px 20px;
+}
+
+.account-info-row .row-title {
+    color: #FFF2DE;
+    margin-right: 5px;
+}
+
+.btn-game {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 30px;
+    color: #FFF2DE;
+    border-width: 0;
+    border-radius: 5px;
+}
+
+.btn-game.block {
+    padding: 8px 24px;
+}
+
+.btn-game.sm {
+    border-radius: 10px;
+}
+
+.btn-game,
+.btn-game.sm {
+    font-size: 18px;
+}
+
+@media (min-width: 576px) {
+    .btn-game {
+        font-size: 24px;
+    }
+}
+
+.btn-game:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.btn-game:not([disabled]):hover {
+    opacity: 0.85;
+}
+
+.btn-game {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green {
+    background: #87C847;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-yellow {
+    background: #FDBF47;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-red {
+    background: #EA5C5C;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-token-bridge {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.transaction-list .transaction-item {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.transaction-list .transaction-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.transaction-list .transaction-item:nth-child(even) {
+    background: rgba(47, 72, 110, 1);
+}
+
+.transaction-list .transaction-item:nth-child(odd) {
+    background: rgba(52, 78, 118, 1);
+}
+
+.transaction-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.m-30 {
+    margin: 30px;
+}
+
+.mx-30 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.transaction-item .transaction-info {
+    /*padding-left: 40px;*/
+    /*padding-right: 24px;*/
+}
+
+.transaction-info .note {
+    font-family: Saira, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.type.withdraw,
+.type.buy {
+    font-family: Saira, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #EA5C5C;
+}
+
+.type.deposit,
+.type.ido_distribution {
+    font-family: Saira, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #A8E26E;
+}
+
+.transaction-item .status {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.transaction-icon.buy .status.success {
+    background-image: url(/img/transactions/checkmark.png);
+    background-size: cover;
+}
+
+.transaction-icon.deposit .status.success,
+.transaction-icon.ido_distribution .status.success {
+    background-image: url(/img/transactions/plus.png);
+    background-size: cover;
+}
+
+.transaction-icon.withdraw .status.success {
+    background-image: url(/img/transactions/minus.png);
+    background-size: cover;
+}
+
+.transaction-item .transaction-icon>img {
+    top: 55% !important;
+    width: 30px;
+    height: 30px;
+}
+
+.transaction-icon img.buy {
+    top: 45% !important;
+    content: url(/img/transactions/box.png);
+}
+
+.transaction-icon img.deposit,
+.transaction-icon img.withdraw,
+.transaction-icon img.ido_distribution {
+    content: url(/img/transactions/money.png);
+}
+
+.transaction-item .transaction-icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.transaction-item .transaction-date {
+    font-family: Saira, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #6ECDE2;
+}
+
+.button-warning {
+    background: #FDBF47;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 8px 24px;
+    font-size: 18px;
+}
+
+.btn-blue {
+    background: #6ECDE2;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 8px 24px;
+    font-size: 18px;
+}
+
+.no-link {
+    text-decoration: none;
+}
+
+.no-link:hover {
+    color: #ffffff;
+}
+
+.header-wrapper {
+    background-image: url(/img/header-wrapper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-header {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 47px;
+    color: #FFF2CD;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    padding: 8px 24px;
+}
+
+.asset-type-text {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.asset-percentage {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0px 15px;
+}
+
+.asset-percentage[data-type="Common"] {
+    background: #A8E26E;
+    border-radius: 5px;
+}
+
+.asset-percentage[data-type="Classic"] {
+    background: #6ECDE2;
+    border-radius: 5px;
+}
+
+.asset-percentage[data-type="Super"] {
+    background: #FDBF47;
+    border-radius: 5px;
+}
+
+.asset-percentage[data-type="Rare"] {
+    background: #EA5C5C;
+    border-radius: 5px;
+}
+
+.btn-buy-box {
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #FFFFFF;
+    border: 1px solid #2F4B19;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    min-width: 165px;
+}
+
+.container-panel {
+    background: #E8DED1;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.header-blue {
+    font-family: Saira, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #6ECDE2;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #1F6681;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+.fuel {
+    font-weight: 600;
+    color: #4f9f02;
+}
+
+.fuel._0 {
+    color: #EA5C5C;
+}
+
+.result-plane {
+    mix-blend-mode: multiply;
+    border: 2px solid #E8DED1;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+@media (min-width: 992px) {
+    .result-plane {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .box-img {
+        max-width: 100%;
+    }
+}
+
+.modal-content {
+    background: #E8DED1;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
